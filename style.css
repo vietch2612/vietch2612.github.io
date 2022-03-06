@@ -963,7 +963,7 @@ table th {
 	margin-left: -0.8pt;
 	padding-top: 0pt;
 	padding-bottom: 0pt;
-	line-height: 1.0;
+	line-height: 1.2;
 	orphans: 2;
 	widows: 2;
 	text-align: left;
@@ -984,7 +984,7 @@ table th {
 .c20 {
 	padding-top: 0pt;
 	padding-bottom: 10pt;
-	line-height: 1.0;
+	line-height: 1.2;
 	orphans: 2;
 	widows: 2;
 	text-align: left;
@@ -1005,6 +1005,16 @@ table th {
 	color: #373a3c;
 	font-weight: 400;
 	text-decoration: none;
+	vertical-align: baseline;
+	font-size: 12pt;
+	font-family: "Georgia";
+	font-style: normal
+}
+
+.c122 {
+	color: #373a3c;
+	text-decoration: underline;
+	font-weight: 400;
 	vertical-align: baseline;
 	font-size: 12pt;
 	font-family: "Georgia";
@@ -1037,6 +1047,15 @@ table th {
 	orphans: 2;
 	widows: 2;
 	text-align: left
+}
+
+.c232 {
+	padding-top: 10pt;
+	padding-bottom: 0pt;
+	line-height: 1.3;
+	orphans: 2;
+	widows: 2;
+	text-align: left;
 }
 
 .c13 {
@@ -1119,7 +1138,7 @@ table th {
 
 .c24 {
 	font-family: "Georgia";
-	color: #a61b4e;
+	color: #373a3c;
 	font-weight: 400;
 }
 
