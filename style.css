@@ -996,7 +996,7 @@ table th {
 	font-weight: 400;
 	text-decoration: none;
 	vertical-align: baseline;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: "Georgia";
 	font-style: normal
 }
@@ -1006,7 +1006,7 @@ table th {
 	font-weight: 400;
 	text-decoration: none;
 	vertical-align: baseline;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-family: "Georgia";
 	font-style: normal
 }
@@ -1016,7 +1016,7 @@ table th {
 	text-decoration: underline;
 	font-weight: 400;
 	vertical-align: baseline;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-family: "Georgia";
 	font-style: normal
 }
@@ -1070,28 +1070,28 @@ table th {
 .c15 {
 	color: #373a3c;
 	font-weight: 400;
-	font-size: 14pt;
+	font-size: 13pt;
 	font-family: "Georgia"
 }
 
 .c28 {
 	color: #a61b4e;
 	font-weight: 700;
-	font-size: 16pt;
+	font-size: 15pt;
 	font-family: "Georgia"
 }
 
 .c18 {
 	color: #373a3c;
 	font-weight: 400;
-	font-size: 10pt;
+	font-size: 9pt;
 	font-family: "Georgia"
 }
 
 .c25 {
 	color: #373a3c;
 	font-weight: 700;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: "Georgia"
 }
 
@@ -1103,14 +1103,14 @@ table th {
 }
 
 .c4 {
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: "Georgia";
 	color: #373a3c;
 	font-weight: 700
 }
 
 .c0 {
-	font-size: 11pt;
+	font-size: 10pt;
 	font-family: "Georgia";
 	color: #373a3c;
 	font-weight: 400
@@ -1119,12 +1119,12 @@ table th {
 .c34 {
 	color: #f75d5d;
 	font-weight: 400;
-	font-size: 10pt;
+	font-size: 9pt;
 	font-family: "Lato"
 }
 
 .c3 {
-	font-size: 16pt;
+	font-size: 15pt;
 	font-family: "Georgia";
 	color: #373a3c;
 	font-weight: 400;
@@ -1191,7 +1191,7 @@ table th {
 	padding-top: 0pt;
 	color: #000000;
 	font-weight: 700;
-	font-size: 14pt;
+	font-size: 13pt;
 	padding-bottom: 10pt;
 	font-family: "Playfair Display";
 	line-height: 1.0;
@@ -1214,22 +1214,22 @@ table th {
 
 li {
 	color: #000000;
-	font-size: 10pt;
+	font-size: 9pt;
 	font-family: "Lato"
 }
 
 p {
 	margin: 0;
 	color: #000000;
-	font-size: 10pt;
+	font-size: 9pt;
 	font-family: "Lato"
 }
 
 h1 {
-	padding-top: 16pt;
+	padding-top: 5pt;
 	color: #f75d5d;
 	font-weight: 700;
-	font-size: 14pt;
+	font-size: 13pt;
 	padding-bottom: 0pt;
 	font-family: "Playfair Display";
 	line-height: 1.0;
@@ -1238,7 +1238,7 @@ h1 {
 }
 
 h2 {
-	padding-top: 10pt;
+	padding-top: 5pt;
 	color: #666666;
 	font-size: 9pt;
 	padding-bottom: 0pt;
@@ -1253,7 +1253,7 @@ h3 {
 	padding-top: 0pt;
 	color: #000000;
 	font-weight: 700;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding-bottom: 0pt;
 	font-family: "Playfair Display";
 	line-height: 1.0;
@@ -1263,11 +1263,11 @@ h3 {
 }
 
 h4 {
-	padding-top: 8pt;
+	padding-top: 5pt;
 	-webkit-text-decoration-skip: none;
 	color: #666666;
 	text-decoration: underline;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding-bottom: 0pt;
 	line-height: 1.3;
 	page-break-after: avoid;
@@ -1279,9 +1279,9 @@ h4 {
 }
 
 h5 {
-	padding-top: 8pt;
+	padding-top: 5pt;
 	color: #666666;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding-bottom: 0pt;
 	font-family: "Trebuchet MS";
 	line-height: 1.3;
@@ -1292,9 +1292,9 @@ h5 {
 }
 
 h6 {
-	padding-top: 8pt;
+	padding-top: 5pt;
 	color: #666666;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding-bottom: 0pt;
 	font-family: "Trebuchet MS";
 	line-height: 1.3;
