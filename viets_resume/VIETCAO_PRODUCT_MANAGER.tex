@@ -1,0 +1,222 @@
+%-------------------------
+% Resume in Latex
+% Original author: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://vietch2612.github.io/}{\Large Viet Cao}} & Email: \href{mailto:viet.ch2612@gmail.com}{viet.ch2612@gmail.com}\\
+   Senior Product Manager & Mobile : \href{tel:+84938922612}{+84-938-922-612} \\
+   Ho Chi Minh City, Viet Nam & \href{http://vietch2612.github.io}{http://vietch2612.github.io/} \\
+   {} & \href{https://www.linkedin.com/in/vietch2612/}{https://www.linkedin.com/in/vietch2612/} \\
+   {} & \small{\textit{Last updated: \today}} \\
+\end{tabular*}
+
+%-----------SUMMARY-----------------
+\section{Summary}
+  {A Product Manager with over 6 years of experience, three times and twice in a row is the most contributing employee of the year. Experienced in software development lifecycle, end-to-end product management, Agile methodology and practices.}
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {OP3N LLC.}{Ho Chi Minh City, Viet Nam and LA, US}
+      {Senior Product Manager}{May 2022 - Dec 2022 (8 months)}
+      \resumeItemListStart
+        \resumeItem{The Product}
+            {Collaborate with the US team to build a Web3 platform, to help creators to create, own and connect their ideas to the community. Website: \underline{\href{https://op3n.world.}{https://op3n.world.}}}
+        \resumeItem{Product Development}
+            {Take ownership of the software/product development life cycle SDLC, product strategy, roadmap, development and the launching of the product.}
+        \resumeItem{Scrum Master}
+            {Coach, work closely with the Scrum team to crate product roadmap, backlog, sprints. Set up the working and development processes from zero to hero.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {7-Eleven Viet Nam}{Ho Chi Minh City, Viet Nam}
+      {Tech Product Manager and Project Manager}{March 2017 - May 2022 (5 years 3 months)}
+      \resumeItemListStart
+        \resumeItem{Product Development}
+        {Lead the Enterprise development team to build the core system including Point of Sales, Order and Delivering, Operation, Warehouse Management System and many more. 7-Eleven VN is one of the few countries out of 19 in the world that can build its own System. An extremely massive and complex system but opens up more opportunities than buying an existing one.}
+        \resumeItem{Product Development}
+        {Led the Consumer development team to build a headless e-commerce service, integrate with other e-payment and partners to make 7-Eleven a store where customers can pay with almost any form of payment or be seen in any online food ordering service in HCMC.}
+        \resumeItem{Product Analytics}
+        {Identify and analyze product problems to propose solutions based on data and customer feedback to improve transaction completion rate by 8\%, reduced the average payment time by 5\%}
+        \resumeItem{Scrum Master}
+        {Apply and maintain the Scrum principles, set up and improve process/workflow for the development team on Jira and Confluence to increase the team's velocity by 20\%.}
+        \resumeItem{Digital Transformation}
+        {Develop, create and improve internal business processes across departments with new technologies, transform operational processes among 5 departments into digital platforms that reduced errors to 1\%, decreased cost by 70\% and increase efficiency by 15\%.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Silicon Straits Saigon}{Ho Chi Minh City, Viet Nam}
+      {QA Engineer}{October 2015 - February 2017 (1 year 5 months)}
+      \resumeItemListStart
+        \resumeItem{Quality assurance}
+            {Requirements analysis, define checklists, test cases, test plans, and test execution to ensuure the quality of three internal projects.}
+        \resumeItem{End-to-end automation testing}
+            {Implement automation test scripts using Calabash, Appium, JMeter, Selenium, TestNG to run on AWS DeviceFarm. Implement the alerting system to make sure the system is alive 24/7.}
+        \resumeItem{Scrum Master}
+            {Coach team members, assist the PM by incorporating techniques to improve processes.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {GNT Viet Nam}{Ho Chi Minh City, Viet Nam}
+      {QC Engineer}{October 2013 - September 2015 (2 years)}
+      \resumeItemListStart
+        \resumeItem{Automation testing}
+            {Implement automation test script with Selenium, Java, TestNG. Performance testing with JMeter \& Jenkins.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------AWARD-----------------
+\section{Award}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Shining stars of the year 2019, Contributor of the year 2020}
+        {Awarded by 7-Eleven Viet Nam to the individual who makes the most contributions and demonstrates the company's values.}
+    \resumeSubItem{Pirate of the month 2016}
+        {Rewarded by Silicon Straits Saigon to the most outstanding employee of the month.}
+    \resumeSubItem{Excellent employee of the year 2014}
+        {Awarded by GNT Viet Nam for the most dedicated employee of the year.}
+  \resumeSubHeadingListEnd
+
+%-----------LICENCES & CERTIFICATES-----------------
+\section{Licence and Certificate}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Google Project Management Certificate}
+      {Google Professional Certificates} \href{https://www.coursera.org/account/accomplishments/specialization/certificate/HUB6LA4G4WHF}{\underline{\textit{(View certificate)}}}
+    \resumeSubItem{Project Management Principles and Practices Specialization}
+      {University of California, Irvine}\href{https://www.coursera.org/account/accomplishments/specialization/certificate/T7KQFGHZX4J2}{\underline{\textit{(View certificate)}}}
+    \resumeSubItem{Agile with Atlassian Jira}
+      {Atlassian University}\href{https://www.coursera.org/account/accomplishments/certificate/K3PXCZCWU8FV}{\underline{\textit{(View certificate)}}}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ho Chi Minh City University of Science}{Ho Chi Minh City, Viet Nam}
+      {Bachelor in Information Technology}{September 2022 -- 2024}
+    \resumeSubheading
+      {University of Transport Technology}{Thai Nguyen, Viet Nam}
+      {Associate of Degree in Information Technology}{September 2010 -- May 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------ARTICLES-----------------
+\section{Published article}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Vietnamese}
+        {How 7LAB at 7-Eleven using Jira to enhance the development workflows. }\href{https://medium.com/7-lab/bddb5245a522}{\underline{\textit{(Read)}}}
+    \resumeSubItem{Vietnamese}
+        {Why Jira Service Desk instead of Zendesk?}\href{https://medium.com/7-lab/b664667aa90d}{\underline{\textit{(Read)}}}
+  \resumeSubHeadingListEnd
+
+%-----------INTEREST-----------------
+\section{Interest}
+\resumeSubHeadingListStart
+  \resumeSubItem{Reading}
+    {I love fiction, novels, and biography. I also enjoy reading articles on Medium or other internet sources. This is the way I keep my mind fresh and maintain my knowledge.}
+\resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------------
+\section{Recommendation}
+    \resumeSubHeadingListStart
+        \resumeSubItem{Trung Luong - Tech Director at 7-Eleven Viet Nam}
+            {I was pleased to work with Viet as the product manager. He is an outstanding professional and always puts in the extra effort to ensure that the team delivers the best results. Viet is an incredible team player, always willing to help out his colleagues and share his knowledge. He is also highly motivated and has an infectious enthusiasm for his work. His dedication, hard work, and serious attitude make him an ideal candidate for any position that requires a high level of commitment.}
+         \resumeSubItem{Nghia Lam - Product Director at OP3N LLC}
+            {Viet is one of the rare all-rounded Product Manager. He can work on almost any stages in building a successful product, with great efficiency. He can also offer great helps setting up and managing the working process in a tech team, ensuring the deliverables quality is met and the product can be launched in a timely manner. I’m confident that Viet would be a valuable member in any team he joins in the future.}
+        \resumeSubItem{Tuan Luu - Head of Engineering at 7-Eleven Viet Nam}
+            {I was so happy when working with Viet. He has a stable personality and high sense of responsibility. He always guarantee the project progress. Besides he often share knowledge with the team.}
+    \resumeSubHeadingListEnd
+    {Please look at the completed list of recommendations on my LinkedIn profile page.} \href{https://www.linkedin.com/in/vietch2612/details/recommendations/?detailScreenTabIndex=0}{\underline{\textit{(Visit)}}}
+
+%-------------------------------------------
+\end{document}
