@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.30)  23 FEB 2023 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.30)  1 MAR 2023 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,28 +304,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [2] (./VIETCAO_PRODUCT_MANAGER.aux)
-
-Package rerunfilecheck Warning: File `VIETCAO_PRODUCT_MANAGER.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `VIETCAO_PRODUCT_MANAGER.out':
-(rerunfilecheck)             Before: A582767DC5D20D022C2C41CDA64E9A46;773
-(rerunfilecheck)             After:  54E10BB19EE56321D56331BD728CC69F;886.
+Package rerunfilecheck Info: File `VIETCAO_PRODUCT_MANAGER.out' has not changed.
+(rerunfilecheck)             Checksum: 54E10BB19EE56321D56331BD728CC69F;886.
  ) 
 Here is how much of TeX's memory you used:
- 10220 strings out of 478268
- 162122 string characters out of 5846347
+ 10221 strings out of 478268
+ 162133 string characters out of 5846347
  495358 words of memory out of 5000000
- 28303 multiletter control sequences out of 15000+600000
+ 28304 multiletter control sequences out of 15000+600000
  475527 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,611b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on VIETCAO_PRODUCT_MANAGER.pdf (2 pages, 119344 bytes).
+Output written on VIETCAO_PRODUCT_MANAGER.pdf (2 pages, 118744 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
