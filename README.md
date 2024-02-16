@@ -1,4 +1,5 @@
-# Viet Cao - Senior Product Manager
+# Viet Cao
+Product Manager, Project Manager, Quality Engineer
 
 **Location:** Ho Chi Minh City, Viet Nam  
 **Email:** [viet.ch2612@gmail.com](mailto:viet.ch2612@gmail.com)  
