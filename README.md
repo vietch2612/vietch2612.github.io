@@ -1,5 +1,4 @@
-# Viet Cao
-Product Manager, Project Manager, Quality Engineer
+# Viet Cao Product Manager, Project Manager, Quality Engineer
 
 **Location:** Ho Chi Minh City, Viet Nam  
 **Email:** [viet.ch2612@gmail.com](mailto:viet.ch2612@gmail.com)  
@@ -49,8 +48,13 @@ A Product Manager with over 6 years of experience, three times and twice in a ro
 - **[Agile with Atlassian Jira](https://www.coursera.org/account/accomplishments/certificate/K3PXCZCWU8FV)** by Atlassian University.
 
 ## Education
-**University of Transport Technology** - Major in Information Technology  
-**Duration:** September 2010 -- May 2013
+**University of Transport Technology** 
+**Major:** Information Technology  
+**Duration:** 2010 - 2013
+
+**HCM University of Science** 
+**Major:** Information Technology  
+**Duration:** 2022 - 2024*
 
 ## Published article
 - **Vietnamese:** [How 7LAB at 7-Eleven using Jira to enhance the development workflows.](https://medium.com/7-lab/bddb5245a522)
