@@ -59,4 +59,4 @@ A Product Manager with over 6 years of experience, three times and twice in a ro
 
 **HCM University of Science**
 **Major:** Information Technology  
-**Duration:** 2022 - 2024\*
+**Duration:** 2022 - 2024
