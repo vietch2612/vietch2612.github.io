@@ -5,7 +5,7 @@
 **Mobile:** [+84-938-922-612](tel:+84938922612)  
 **Website:** [http://vietch2612.github.io](http://vietch2612.github.io/)  
 **LinkedIn:** [https://www.linkedin.com/in/vietch2612/](https://www.linkedin.com/in/vietch2612/)  
-**Last updated:** _Today_
+**Last updated:** 2024-04-07
 
 ## Summary
 
