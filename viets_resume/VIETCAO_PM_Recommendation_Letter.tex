@@ -1,0 +1,131 @@
+%-------------------------
+% Resume in Latex
+% Original author: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNew}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://vietch2612.github.io/}{\Large Viet Cao}} & Email: \href{mailto:viet.ch2612@gmail.com}{viet.ch2612@gmail.com}\\
+   Project, Product Manager & Mobile : \href{tel:+84938922612}{+84-938-922-612} \\
+   Ho Chi Minh City, Viet Nam & \href{https://www.linkedin.com/in/vietch2612/}{https://www.linkedin.com/in/vietch2612/} \\
+   {} & \small{\textit{Last updated: \today}} \\
+\end{tabular*}
+
+%-----------SUMMARY-----------------
+\section{Summary}
+  {Experienced Project and Product Manager with over 6 years of experience, including 1 year managing blockchain projects. Expert in Agile methodologies and the software development lifecycle, with a proven track record of leading cross-functional teams to drive successful technology projects. Eager to apply strategic insights and robust project management skills to innovative FinTech solutions.}
+
+% %-----------INTEREST-----------------
+% \section{Interest}
+% \resumeSubHeadingListStart
+%   \resumeSubItem{Reading}
+%     {I love fiction, novels, and biography. I also enjoy reading articles on Medium or other internet sources. This is the way I keep my mind fresh and maintain my knowledge.}
+% \resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------------
+\section{Recommendation}
+    \resumeSubHeadingListStart
+        \resumeSubItem{Trung Luong - Tech Director at 7-Eleven Viet Nam}
+            {I was pleased to work with Viet as the product manager. He is an outstanding professional and always puts in the extra effort to ensure that the team delivers the best results. Viet is an incredible team player, always willing to help out his colleagues and share his knowledge. He is also highly motivated and has an infectious enthusiasm for his work. His dedication, hard work, and serious attitude make him an ideal candidate for any position that requires a high level of commitment.}
+         \resumeSubItem{Nghia Lam - Product Director at OP3N LLC}
+            {Viet is one of the rare all-rounded Product Manager. He can work on almost any stages in building a successful product, with great efficiency. He can also offer great helps setting up and managing the working process in a tech team, ensuring the deliverables quality is met and the product can be launched in a timely manner. I’m confident that Viet would be a valuable member in any team he joins in the future.}
+        \resumeSubItem{Tuan Luu - Head of Engineering at 7-Eleven Viet Nam}
+            {I was so happy when working with Viet. He has a stable personality and high sense of responsibility. He always guarantee the project progress. Besides he often share knowledge with the team.}
+    \resumeSubHeadingListEnd
+    {Please look at the completed list of recommendations on my LinkedIn profile page.} \href{https://www.linkedin.com/in/vietch2612/details/recommendations/?detailScreenTabIndex=0}{\underline{\textit{(Visit)}}}
+
+%-------------------------------------------
+\end{document}
